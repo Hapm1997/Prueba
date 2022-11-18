@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+}
+
+header{
+    height: auto;
+    background-color: rgb(66, 66, 66);
+}
+header nav:nth-child(1){
+    display: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+nav ul:nth-child(1) li:nth-child(1) img{
+    width: 8vw;
+}
+nav ul:nth-child(2) li{
+    color: rgb(149, 149, 149);
+    transition: all 500ms  ease-in-out;
+}
+nav ul:nth-child(2) li:hover{
+    cursor: pointer;
+    filter: brightness(1.5);
+    font-size: 1.03rem;
+}
+nav ul:nth-child(2) li:nth-child(1){
+    color: white;
+}
+nav ul:nth-child(2) li:nth-child(1):hover{
+    color: white;
+    cursor: pointer;
+}
+nav ul:nth-child(1) li:nth-child(1) img:hover{
+    cursor: pointer;
+}
+
+nav ul:nth-child(1) li:nth-child(2):hover{
+    cursor: pointer;   
+}
+
+nav ul:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+nav ul:nth-child(2) li{
+    margin: 2%;
+    width: auto;
+}
+/* ---------------------------------------------------------------------------------------- */
+section:nth-child(2){
+    height: 75vh;
+    background-color: pink;
+    background-image: url(img/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section:nth-child(2) article{
+    background-color: rgba(0, 0, 0, 0.442);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items:flex-end
+}
+
+section:nth-child(2) article h3{
+    font-size: 3rem;
+    margin-right: 8%;
+    text-align: right;
+    padding-bottom: 1%;
+}
+section:nth-child(2) article p{
+    font-size: 1rem;
+    width: 40vw;
+    margin-right: 8%;
+    text-align: right;
+}
+
+section:nth-child(2) article div{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    margin-right: 8%;
+    width: 40vw;
+}
+
+section:nth-child(2) article div p{
+    width: auto;
+    margin: 2%;
+    padding: 2%;
+}
+section:nth-child(2) article div p:nth-child(2){
+    background-color: green;
+    border-radius: 8px;
+    border: 2px solid green;
+    transition: all 500ms ease-in-out;
+    font-weight: bolder;
+}
+section:nth-child(2) article div p:nth-child(2):hover{
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: green;
+    cursor: pointer;
+}
+section:nth-child(2) article div p:nth-child(1){
+    border-radius: 8px;
+    border: 2px solid white;
+    transition: all 500ms ease-in-out;
+    font-weight: bolder;
+}
+section:nth-child(2) article div p:nth-child(1):hover{
+    border-radius: 8px;
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------------------------------------ */
+section:nth-child(3){
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+section:nth-child(3) h3{
+    text-align: center;
+}
+
+section:nth-child(3) article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: 3%;
+}
+
+section:nth-child(3) article div{
+    height: 83vh;
+    width: 20vw;
+    border:  1px solid black;
+    margin-left: 3%;
+    transition: all 500ms ease-in-out;
+}
+
+section:nth-child(3) article div div{
+    padding: 5%;
+    width: 100%;
+    border:  0px solid black;
+    margin: 0%;
+}
+
+section:nth-child(3) article div div:nth-child(1){
+    padding: 0%;
+    height: 60%;
+    width: 100%;
+    background-image: url("img/steve.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+section:nth-child(3) article div:nth-child(2) div:nth-child(1){
+    background-image: url("img/bill.jpg");
+}
+section:nth-child(3) article div:nth-child(3) div:nth-child(1){
+    background-image: url("img/ada.jpeg");
+}
+
+section:nth-child(3) article div div img{
+    width: 100%;
+}
+
+section:nth-child(3) article div div p:nth-child(1){
+    background-color: rgb(255, 208, 0);
+    display: inline;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 0.5rem;
+    font-weight: bolder;
+    transition: all 500ms ease-in-out;
+}
+section:nth-child(3) article div div p:nth-child(1):hover{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(255, 208, 0);
+    cursor: pointer;
+}
+section:nth-child(3) article div div p:nth-child(2){
+    background-color: blue;
+    color: white;
+    margin: 3%;
+    display: inline;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 0.5rem;
+    font-weight: bolder;
+    transition: all 500ms ease-in-out;
+}
+section:nth-child(3) article div div p:nth-child(2):hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+section:nth-child(3) article div div p:nth-child(4){
+    font-size: 0.75rem;
+}
+
+section:nth-child(3) article div:nth-child(3) div p:nth-child(1){
+    background-color: gray;
+    display: inline;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: white;
+    transition: all 500ms ease-in-out;
+}
+section:nth-child(3) article div:nth-child(3) div p:nth-child(1):hover{
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    cursor: pointer;
+}
+section:nth-child(3) article div:nth-child(3) div p:nth-child(2){
+    background-color: red;
+    display: inline;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    transition: all 500ms ease-in-out;
+}
+section:nth-child(3) article div:nth-child(3) div p:nth-child(2):hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+section:nth-child(3) article div div h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+/* ---------------------------------------------------------------------------------------------- */
+section:nth-child(4){
+    height: 70vh;
+    background-color: rgb(39, 40, 50);
+    display: flex;
+    flex-direction: row;
+}
+
+section:nth-child(4) article:nth-child(1){
+    width: 50%;
+    height: 100%;
+    background-image: url(img/honolulu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section:nth-child(4) article:nth-child(2){
+    width: 50%;
+    margin: 3%;
+    color: white;
+}
+section:nth-child(4) article:nth-child(2) h4 {
+    margin-bottom: 3%;
+}
+section:nth-child(4) article:nth-child(2) p {
+    margin-bottom: 3%;
+}
+section:nth-child(4) article:nth-child(2) p:nth-child(3) {
+    border: 1px solid white;
+    padding: 1%;
+    display: inline;
+    border-radius: 5px;
+    transition: all 500ms ease-in-out;
+}
+section:nth-child(4) article:nth-child(2) p:nth-child(3):hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+section:nth-child(5) p{
+    text-align: center;
+}
+section:nth-child(5) h4{
+    text-align: center;
+}
+span{
+    border-bottom: 3px dotted black;
+}
+/* -------------------------------------------------------------------------------------------------- */
+footer{
+    height: 30vh;
+    background-color: rgb(20, 25, 107);
+}
+footer p{
+    transition: all 500ms ease-in-out;
+}
+footer p:hover{
+    cursor: pointer;
+    filter: opacity(0.7);
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 991px){
+    header nav:nth-child(2){
+        display: none;
+    }
+    header nav:nth-child(1){
+        width: 100%;
+        display: flex;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background-color: rgb(66, 66, 66);
+        z-index: 10;
+    }
+    header nav:nth-child(1) div a img{
+        width: 40%;
+    }
+    header nav:nth-child(1) div  button{
+        background-color: white;
+        border: 1px solid gray;
+    }
+    header nav:nth-child(1) div  button span{
+        border: 0px;
+    }
+
+    /* ------------------------------------------------------------------- */
+    section:nth-child(2){
+        width: 100%;
+        margin-top: 65px;
+        padding-top: 0%;
+    }
+    section:nth-child(2) article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section:nth-child(2) article h3{
+        margin: 0%;
+    }
+    section:nth-child(2) article p{
+        margin: 0%;
+        text-align: center;
+    }
+    section:nth-child(2) article div{
+        margin: 0%;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    section:nth-child(2) article div p{
+        padding: 1.5%;
+        font-size: 0.7rem;
+    }
+    /* ---------------------------------------------------------------- */
+    section:nth-child(3) article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section:nth-child(3) article div{
+        width: 50%;
+        height: 100vh;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    section:nth-child(3) article div div:nth-child(1){
+        background-position: top;
+    }
+    /* --------------------------------------------------------------- */
+    section:nth-child(4){
+        flex-direction: column;
+        height: 120vh;
+    }
+    section:nth-child(4) article:nth-child(1){
+        width: 100%;
+    }
+    section:nth-child(4) article:nth-child(2){
+        width: 100%;
+        margin: 0%;
+        padding:3%;
+        text-align: center;
+    }
+    section:nth-child(4) article:nth-child(2) h4{
+        width: 100%;
+    }
+    /* -------------------------------------------------------------------- */
+    section:nth-child(5){
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    section:nth-child(5) div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        width: 50%;
+    }
+    section:nth-child(5) div div{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    /* ------------------------------------------------------- */
+    footer{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: auto;
+    }
+    footer p{
+        margin: 3%;
+    }
+}
